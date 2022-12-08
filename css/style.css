@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(..//fonts/Roboto-Regular.ttf);
+}
 .container {
   max-width: 1064px;
 }
@@ -23,16 +27,59 @@ header .navbar-brand {
   top: 20px;
 }
 
+.nav-item a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1C1B1B;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1C1B1B;
+}
+
 .main_banner {
   background-color: #F0EFEB;
   padding: 90px 0;
 }
 
 .main_banner h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
   margin-bottom: 42px;
 }
 .main_banner p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
   margin-bottom: 26px;
+}
+.main_banner a {
+  border-radius: 100px;
+  max-width: 129px;
+  background: #000000;
+  border: 1px solid #000000;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 7px 23px 9px;
 }
 
 .banner_custom_position {
@@ -45,4 +92,227 @@ header .navbar-brand {
     width: 100%;
     display: block;
   }
+}
+
+.best_sellers {
+  padding-top: 60px;
+  padding-bottom: 248px;
+}
+.best_sellers h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 27px;
+}
+.best_sellers p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 47px;
+}
+.best_sellers .card {
+  border-color: #FFFFFF;
+}
+.best_sellers .card img {
+  margin-bottom: 27px;
+}
+.best_sellers .card h5 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 17px;
+}
+.best_sellers .card p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.best_sellers .card a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+.best_sellers .card .btn-primary {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.people {
+  background-color: rgba(204, 204, 204, 0.3019607843);
+}
+
+.people_mr {
+  background-color: rgba(204, 204, 204, 0.6);
+}
+
+.people, .people_mr {
+  padding: 76px 0 51px;
+}
+.people .d-flex, .people_mr .d-flex {
+  align-items: center;
+}
+.people h3, .people_mr h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.people h5, .people_mr h5 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.people p, .people_mr p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+.people .card_description, .people_mr .card_description {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.features {
+  padding: 190px 0 52px;
+  background-color: #FFFFFF;
+}
+.features .d-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+.features .features_icons {
+  max-width: 339px;
+  text-align: center;
+}
+.features h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 69px;
+}
+.features img {
+  margin-bottom: 26px;
+}
+.features p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 111px;
+}
+
+.touch {
+  background-color: #FFFFFF;
+  padding: 79px 0 88px;
+}
+.touch h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.touch p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 26px;
+}
+.touch .d-flex {
+  justify-content: center;
+}
+.touch form {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #A0A0A0;
+}
+
+footer {
+  padding: 51px 0 16px;
+  background-color: #020202;
+}
+footer .footer_description {
+  justify-content: space-between;
+}
+footer .social img {
+  margin-top: 45px;
+  margin-right: 23px;
+}
+footer h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+footer h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
