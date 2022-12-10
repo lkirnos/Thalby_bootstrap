@@ -50,7 +50,15 @@ header .navbar-brand {
   padding: 90px 0;
 }
 
-.main_banner h1 {
+.main_banner {
+  padding: 90px 0;
+}
+@media screen and (max-width: 588px) {
+  .main_banner .d-flex {
+    flex-wrap: wrap;
+  }
+}
+.main_banner h2 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -59,7 +67,19 @@ header .navbar-brand {
   color: #000000;
   margin-bottom: 42px;
 }
-.main_banner p {
+@media screen and (max-width: 893px) {
+  .main_banner h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 698px) {
+  .main_banner h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+.main_banner h4 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -68,11 +88,21 @@ header .navbar-brand {
   color: #000000;
   margin-bottom: 26px;
 }
-.main_banner a {
-  border-radius: 100px;
-  max-width: 129px;
-  background: #000000;
+@media screen and (max-width: 893px) {
+  .main_banner h4 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 698px) {
+  .main_banner h4 {
+    font-size: 15px;
+  }
+}
+.main_banner .btn-primary {
+  background-color: #000000;
+  box-sizing: border-box;
   border: 1px solid #000000;
+  border-radius: 100px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -82,15 +112,9 @@ header .navbar-brand {
   padding: 7px 23px 9px;
 }
 
-.banner_custom_position {
-  position: relative;
-  right: -30px;
-}
-@media screen and (max-width: 992px) {
-  .banner_custom_position {
-    right: 0;
+@media screen and (max-width: 893px) {
+  .main_banner_picture {
     width: 100%;
-    display: block;
   }
 }
 
@@ -174,6 +198,12 @@ header .navbar-brand {
 .people .d-flex, .people_mr .d-flex {
   align-items: center;
 }
+@media screen and (max-width: 846px) {
+  .people .d-flex, .people_mr .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .people h3, .people_mr h3 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -182,6 +212,12 @@ header .navbar-brand {
   line-height: 42px;
   color: #000000;
   margin-bottom: 31px;
+}
+@media screen and (max-width: 846px) {
+  .people h3, .people_mr h3 {
+    margin-top: 30px;
+    font-size: 30px;
+  }
 }
 .people h5, .people_mr h5 {
   font-family: "Roboto", sans-serif;
@@ -192,6 +228,11 @@ header .navbar-brand {
   color: #000000;
   margin-bottom: 40px;
 }
+@media screen and (max-width: 846px) {
+  .people h5, .people_mr h5 {
+    font-size: 30px;
+  }
+}
 .people p, .people_mr p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -201,6 +242,11 @@ header .navbar-brand {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #000000;
+}
+@media screen and (max-width: 846px) {
+  .people p, .people_mr p {
+    margin-bottom: 40px;
+  }
 }
 .people .card_description, .people_mr .card_description {
   margin-left: 50px;
@@ -214,6 +260,11 @@ header .navbar-brand {
 .features .d-flex {
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 360px) {
+  .features .d-flex {
+    flex-wrap: wrap;
+  }
 }
 .features .features_icons {
   max-width: 339px;
@@ -229,6 +280,11 @@ header .navbar-brand {
   color: #000000;
   margin-bottom: 69px;
 }
+@media screen and (max-width: 444px) {
+  .features h3 {
+    font-size: 30px;
+  }
+}
 .features img {
   margin-bottom: 26px;
 }
@@ -242,12 +298,92 @@ header .navbar-brand {
   color: #000000;
   margin-bottom: 111px;
 }
+@media screen and (max-width: 700px) {
+  .features p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 548px) {
+  .features p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 444px) {
+  .features p {
+    font-size: 17px;
+  }
+}
+
+.faces {
+  padding-bottom: 52px;
+}
+.faces h3 {
+  margin-bottom: 290px;
+  text-align: center;
+}
+.faces .grey_bg {
+  height: 480px;
+  background-color: #F0F0F0;
+}
+@media screen and (max-width: 767px) {
+  .faces .grey_bg {
+    height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .faces .grey_bg .d-flex {
+    flex-wrap: wrap;
+  }
+}
+.faces .grey_bg article {
+  border-color: #FFFFFF;
+  position: relative;
+  top: -188px;
+}
+.faces .grey_bg article img {
+  margin-bottom: 35px;
+}
+.faces .grey_bg article h5 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.faces .grey_bg article p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 44px;
+}
+.faces .grey_bg article a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+.faces .grey_bg article .btn-primary {
+  background-color: #F0F0F0;
+  border-color: #F0F0F0;
+}
 
 .touch {
-  background-color: #FFFFFF;
   padding: 79px 0 88px;
+  text-align: center;
 }
-.touch h2 {
+.touch h3 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -267,45 +403,65 @@ header .navbar-brand {
   color: #000000;
   margin-bottom: 26px;
 }
-.touch .d-flex {
-  justify-content: center;
+.touch form .form-group {
+  margin-bottom: 18px;
 }
-.touch form {
+.touch form button {
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  color: #A0A0A0;
+  color: #FFFFFF;
+  padding: 7px 23px 9px;
 }
 
 footer {
   padding: 51px 0 16px;
   background-color: #020202;
 }
-footer .footer_description {
+footer .footer_sections {
   justify-content: space-between;
 }
-footer .social img {
+@media screen and (max-width: 414px) {
+  footer .footer_sections {
+    flex-wrap: wrap;
+  }
+}
+footer .social a {
   margin-top: 45px;
   margin-right: 23px;
 }
-footer h3 {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 23px;
-  color: #FFFFFF;
+footer .footer_links {
+  justify-content: space-between;
+  list-style: none;
 }
-footer p {
+@media screen and (max-width: 414px) {
+  footer .footer_links {
+    margin-top: 25px;
+  }
+}
+footer .footer_links li a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 23px;
   color: #FFFFFF;
+  margin-bottom: 12px;
+}
+footer .footer_links li h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 36px;
 }
 footer h2 {
   font-family: "Roboto", sans-serif;
@@ -315,4 +471,5 @@ footer h2 {
   line-height: 23px;
   text-align: center;
   color: #FFFFFF;
+  margin-top: 9px;
 }/*# sourceMappingURL=style.css.map */
