@@ -412,6 +412,17 @@ header .navbar-brand {
 .touch form .form-group {
   margin-bottom: 18px;
 }
+.touch form .form-control {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #A0A0A0;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  padding-left: 8px;
+}
 .touch form button {
   background-color: #000000;
   border: 1px solid #000000;
