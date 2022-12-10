@@ -206,8 +206,9 @@ header{
         }
     }
     img{
-        @include max-screen(385px){
-            width: 70%;
+        @include max-screen(4255px){
+            width: 100%;
+            align-items: center;
         }
     }
     h3{
@@ -294,12 +295,15 @@ header{
         margin-bottom: 111px;
         @include max-screen(700px){
             font-size: 25px;
+            margin-bottom: 80px;
         }
         @include max-screen(548px){
             font-size: 20px;
+            margin-bottom: 60px;
         }
         @include max-screen(444px){
             font-size: 17px;
+            margin-bottom: 20px;
         }
     }
 }

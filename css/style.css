@@ -204,9 +204,10 @@ header .navbar-brand {
     justify-content: center;
   }
 }
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 4255px) {
   .people img, .people_mr img {
-    width: 70%;
+    width: 100%;
+    align-items: center;
   }
 }
 .people h3, .people_mr h3 {
@@ -306,16 +307,19 @@ header .navbar-brand {
 @media screen and (max-width: 700px) {
   .features p {
     font-size: 25px;
+    margin-bottom: 80px;
   }
 }
 @media screen and (max-width: 548px) {
   .features p {
     font-size: 20px;
+    margin-bottom: 60px;
   }
 }
 @media screen and (max-width: 444px) {
   .features p {
     font-size: 17px;
+    margin-bottom: 20px;
   }
 }
 
