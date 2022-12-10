@@ -194,6 +194,13 @@ header{
 
 .people_mr{
     background-color: #CCCCCC99;
+    .d-flex{
+        @include max-screen(846px){
+            .card_description{
+                order: 2;
+            }
+        }
+    }
 }
 
 .people, .people_mr{
@@ -244,9 +251,6 @@ header{
         line-height: 20px;
         text-decoration-line: underline;
         color: #000000;
-        @include max-screen(846px){
-            margin-bottom: 40px;
-        }
     }
     .card_description{
         margin-left: 50px;

@@ -191,6 +191,11 @@ header .navbar-brand {
 .people_mr {
   background-color: rgba(204, 204, 204, 0.6);
 }
+@media screen and (max-width: 846px) {
+  .people_mr .d-flex .card_description {
+    order: 2;
+  }
+}
 
 .people, .people_mr {
   padding: 76px 0 51px;
@@ -248,11 +253,6 @@ header .navbar-brand {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #000000;
-}
-@media screen and (max-width: 846px) {
-  .people p, .people_mr p {
-    margin-bottom: 40px;
-  }
 }
 .people .card_description, .people_mr .card_description {
   margin-left: 50px;
