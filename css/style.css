@@ -204,6 +204,12 @@ header .navbar-brand {
     justify-content: center;
   }
 }
+@media screen and (max-width: 425px) {
+  .people img, .people_mr img {
+    width: 100%;
+    align-items: center;
+  }
+}
 .people h3, .people_mr h3 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
