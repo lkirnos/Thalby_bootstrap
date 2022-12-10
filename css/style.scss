@@ -205,6 +205,11 @@ header{
             justify-content: center;
         }
     }
+    img{
+        @include max-screen(385px){
+            width: 70%;
+        }
+    }
     h3{
         font-family: 'Roboto', sans-serif;
         font-style: normal;
