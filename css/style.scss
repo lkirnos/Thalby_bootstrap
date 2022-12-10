@@ -206,7 +206,7 @@ header{
         }
     }
     img{
-        @include max-screen(4255px){
+        @include max-screen(425px){
             width: 100%;
             align-items: center;
         }
