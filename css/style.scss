@@ -397,14 +397,6 @@ header{
         margin-bottom: 26px;
     }
     form{
-        .form-group{
-            margin-bottom: 18px;
-            border: 1px solid #000000;
-            border-radius: 0px;
-            .col-md-3{
-                height: 39px;
-            }
-        }
         .form-control{
             font-family: 'Roboto', sans-serif;
             font-style: normal;
@@ -415,6 +407,8 @@ header{
             padding-top: 12px;
             padding-bottom: 11px;
             padding-left: 8px;
+            border: 1px solid #000000;
+            border-radius: 0px;
         }
         button{
             background-color: #000000;
